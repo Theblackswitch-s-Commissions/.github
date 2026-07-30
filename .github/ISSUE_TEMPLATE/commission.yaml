@@ -2,45 +2,45 @@ name: Commission Request
 description: "Request a datapack or resource pack commission."
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Hello! Thanks for wanting to apply for a datapack / resource pack commission!
+- type: markdown
+  attributes:
+    value: |
+      Hello! Thanks for wanting to apply for a datapack / resource pack commission!
 
-        Please read the [commission rules](https://github.com/Theblackswitch-s-Commissions/.github/blob/main/commission-rules.md).
+      Please read the [commission rules](https://github.com/Theblackswitch-s-Commissions/.github/blob/main/commission-rules.md).
 
-  - type: checkboxes
-    id: type
-    attributes:
-      label: Type
-      description: "What project type would you like to commission for?"
-      options:
-        - label: Datapack
-        - label: Resource Pack
+- type: checkboxes
+  id: type
+  attributes:
+    label: Type
+    description: "What project type would you like to commission for?"
+    options:
+      - label: Datapack
+      - label: Resource Pack
 
-  - type: input
-    id: project-name
-    attributes:
-      label: Name
-      description: "What's the name of your project? For example: Ancient Artifacts"
-      placeholder: Enter name here
-    validations:
-      required: true
+- type: input
+  id: project-name
+  attributes:
+    label: Name
+    description: "What's the name of your project? For example: Ancient Artifacts"
+    placeholder: Enter name here
+  validations:
+    required: true
 
-  - type: textarea
-    id: project-description
-    attributes:
-      label: Project description
-      description: "Please explain your project and its scope in detail."
-      placeholder: Enter project description
-    validations:
-      required: true
+- type: textarea
+  id: project-description
+  attributes:
+    label: Project description
+    description: "Please explain your project and its scope in detail."
+    placeholder: Enter project description
+  validations:
+    required: true
 
-  - type: checkboxes
-    id: agreement
-    attributes:
-      label: "Agreement"
-      options:
-        - label: "I've read the commission rules and therefor by checking this checkbox and agree to them."
-    validations:
-          required: true
+- type: checkboxes
+  id: agreement
+  attributes:
+    label: "Agreement"
+    options:
+      - label: "I've read the commission rules and therefor by checking this checkbox and agree to them."
+  validations:
+    required: true
