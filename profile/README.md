@@ -19,24 +19,3 @@ An estimate will be made once all ideas about the project are shared, this may o
 I'll hand over the finished product once the payment is successfully received. If you want, I can give you visual confirmation of the working project through a livestream. 
 
 For datapacks only, we can hop on a server to test it out live. This is not possible for resourcepacks since that requires downloading the pack on your client.
-
-
-
-# 📜 License
-
-* * *
-
-All material originating from the organization Theblackswitch's Commissions is licensed under [CC-BY-NC-ND 4.0]() &copy; theblackswitch unless otherwise noted in the project.
-
-An exception is made for video content, which can be monetized. However, video creators must give appropriate credit by leaving a link to this page in the video.
-
-**Additional condition**: the content of this work, as a whole or in parts, may **not** be used for training, fine-tuning, or enhancement of artificial intelligence systems, machine learning models or any other type of program where computers use data and algorithms to learn patterns and make predictions without being explicitly programmed. This includes, not only and all, for commercial, non-commercial, educational, research, or personal projects.
-
-* * *
-
-Reasons:
-1. I hate generative AI content. It has no unique-ness.
-2. You're essentially stealing my long term hobby project made with love whilst making profit from it
-3. I don't receive anything unless I'm also an AI bro like you
-4. Did I mention already that I hate generative AI?
-5. Please don't
