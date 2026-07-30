@@ -1,4 +1,4 @@
-nname: Commission Request
+name: Commission Request
 description: "Request a datapack or resource pack commission."
 
 body:
