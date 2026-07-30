@@ -1,0 +1,37 @@
+name: "Bug Report"
+fields:
+- type: "markdown"
+  attributes:
+    value: "Hello, Thanks for wanting to apply for a datapack / resourcepack commission!\n\nPlease read [the commission rules](github.com/Theblackswitch-s-Commissions/.github/commission-rules.md)"
+- type: "checkboxes"
+  attributes:
+    label: "Type"
+    description: "What project type would you like to commission for?"
+    options:
+    - label: "datapack"
+      required: false
+    - label: "resourcepack"
+      required: false
+  validations:
+    required: false
+- type: "input"
+  attributes:
+    label: "Name"
+    description: "What's the name of your project. For example: Ancient Artifacts"
+    placeholder: "Enter name here"
+  validations:
+    required: true
+- type: "textarea"
+  attributes:
+    label: "Project description"
+    description: "Please explain your project and the scope in detail here"
+    placeholder: "Enter project description"
+  validations:
+    required: true
+- type: "checkboxes"
+  attributes:
+    options:
+    - label: "I've read the commission rules and therefore agree to them by checking this checkbox"
+      required: true
+  validations:
+    required: false
