@@ -39,7 +39,7 @@ body:
   - type: checkboxes
     id: agreement
     attributes:
-      label: ""
+      label: "Agreement"
       options:
         - label: "I've read the commission rules and therefor by checking this checkbox and agree to them."
           required: true
