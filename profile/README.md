@@ -11,7 +11,7 @@ Feel free to look at the code and update it yourself :)
 |-|-|
 
 # ✨Commissions
-Also want to bring your datapack idea to life but don't know where to start? Feel free to send an email to [support@theblackswitch.com](mailto:support@theblackswitch.com), reach out to me on [GitHub](https://github.com/Theblackswitch-s-Commissions/.github/issues/new?template=commission.md) or message me on discord under the name ``theblackswitch``. 
+Also want to bring your datapack idea to life but don't know where to start? Feel free to send an email to [support@theblackswitch.com](mailto:support@theblackswitch.com), reach out to me on [GitHub](https://github.com/Theblackswitch-s-Commissions/.github/issues/new?template=commission.yaml) or message me on discord under the name ``theblackswitch``. 
 
 I'll code your datapack / resourcepack idea for a low price calculating €1 an hour with a minimum of €10. 
 An estimate will be made once all ideas about the project are shared, this may or may not be the final price, depending on how much time I spend coding. 
