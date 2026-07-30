@@ -22,7 +22,7 @@ body:
     id: project-name
     attributes:
       label: Name
-      description: What's the name of your project? For example: Ancient Artifacts
+      description: What´s the name of your project? For example: Ancient Artifacts
       placeholder: Enter name here
     validations:
       required: true
@@ -41,5 +41,5 @@ body:
     attributes:
       label: Agreement
       options:
-        - label: I've read the commission rules and therefor by checking this checkbox and agree to them.
+        - label: I´ve read the commission rules and therefor by checking this checkbox and agree to them.
           required: true
