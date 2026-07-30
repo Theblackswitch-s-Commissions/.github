@@ -1,37 +1,45 @@
-name: "Bug Report"
-fields:
-- type: "markdown"
-  attributes:
-    value: "Hello, Thanks for wanting to apply for a datapack / resourcepack commission!\n\nPlease read [the commission rules](github.com/Theblackswitch-s-Commissions/.github/commission-rules.md)"
-- type: "checkboxes"
-  attributes:
-    label: "Type"
-    description: "What project type would you like to commission for?"
-    options:
-    - label: "datapack"
-      required: false
-    - label: "resourcepack"
-      required: false
-  validations:
-    required: false
-- type: "input"
-  attributes:
-    label: "Name"
-    description: "What's the name of your project. For example: Ancient Artifacts"
-    placeholder: "Enter name here"
-  validations:
-    required: true
-- type: "textarea"
-  attributes:
-    label: "Project description"
-    description: "Please explain your project and the scope in detail here"
-    placeholder: "Enter project description"
-  validations:
-    required: true
-- type: "checkboxes"
-  attributes:
-    options:
-    - label: "I've read the commission rules and therefore agree to them by checking this checkbox"
+nname: Commission Request
+description: Request a datapack or resource pack commission.
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hello! Thanks for wanting to apply for a datapack / resource pack commission!
+
+        Please read the [commission rules](https://github.com/Theblackswitch-s-Commissions/.github/blob/main/commission-rules.md).
+
+  - type: checkboxes
+    id: type
+    attributes:
+      label: Type
+      description: What project type would you like to commission for?
+      options:
+        - label: Datapack
+        - label: Resource Pack
+
+  - type: input
+    id: project-name
+    attributes:
+      label: Name
+      description: What's the name of your project? For example: Ancient Artifacts
+      placeholder: Enter name here
+    validations:
       required: true
-  validations:
-    required: false
+
+  - type: textarea
+    id: project-description
+    attributes:
+      label: Project description
+      description: Please explain your project and its scope in detail.
+      placeholder: Enter project description
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Agreement
+      options:
+        - label: I've read the commission rules and therefor by checking this checkbox and agree to them.
+          required: true
