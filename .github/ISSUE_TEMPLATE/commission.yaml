@@ -42,4 +42,5 @@ body:
       label: "Agreement"
       options:
         - label: "I've read the commission rules and therefor by checking this checkbox and agree to them."
+    validations:
           required: true
